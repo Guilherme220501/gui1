@@ -7,8 +7,8 @@
     <title>Formulario</title>
 </head>
 <style>
-    body{background: radial-gradient(to right,red,white,red);text-align: center;}
-    h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;color: white;}
+    body{background: linear-gradient(to right,white,blue,black);text-align: center;}
+    h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;color: rgb(0, 0, 0);}
     p{color: black;font-size: 15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     fieldset{background-color: blueviolet;width: 300px;margin: auto;border-radius: 10px 10px;border: 7px solid white;box-shadow: 6px 6px 6px red;padding: 10px;}
     label{display: flex;flex-direction: column;padding: 5px;}
@@ -18,7 +18,7 @@
     option{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: white;}
     textarea{width: 300px;margin: auto;border: 5px solid red;border-radius: 10px 10px;background-color: bisque;}
     summary{margin: auto;width: 300px;border-radius: 10px 10px;}
-    .color{background-color: aqua;width: 300px;margin: auto;border-radius: 10px 10px;box-shadow: 7px 7px 7px red;padding: 10px;}
+    .color{background-color: aqua;width: 200px;margin: auto;border-radius: 10px 10px;box-shadow: 7px 7px 7px red;padding: 10px;}
 </style>
 <body>
     <div id="text"><details><summary style="background-color: black;color: yellow;border: 3px solid white;box-shadow: 6px 6px 6px yellow;">Cadastro de <b style="color: red;">Inscrição</b></summary>
@@ -44,25 +44,25 @@
             <br>
             <div class="color">
             <label for="Novo">Novo</label>
-            <input type="radio" value="Experiência" name="Novo" required>
+            <input type="radio" value="Novo" name="Experiência" required>
             <label for="Jovem">Jovem</label>
-            <input type="radio" value="Experiência" name="Jovem" required>
+            <input type="radio" value="Jovem" name="Experiência" required>
             <label for="Aprendiz">Aprendiz</label>
-            <input type="radio" value="Experiência" name="Aprendiz" required>
+            <input type="radio" value="Aprendiz" name="Experiência" required>
             <label for="Intermediário">Intermediário</label>
-            <input type="radio" value="Experiência" name="Intermediário" required>
+            <input type="radio" value="Intermediário" name="Experiência" required>
             <label for="Experiente">Experiente</label>
-            <input type="radio" value="Experiência" name="Experiente" required>
+            <input type="radio" value="Experiente" name="Experiência" required>
             <label for="Veterano">Veterano</label>
-            <input type="radio" value="Experiência" name="Veterano" required>
+            <input type="radio" value="Veterano" name="Experiência" required>
             <label for="Expert">Expert</label>
-            <input type="radio" value="Experiência" name="Expert" required>
+            <input type="radio" value="Expert" name="Experiência" required>
             </div>
             <br>
             <label>Qual seu <b style="color: red;">Signo</b>?</label>
             <br>
             <select name="Signo" id="Signo" required>
-                <option value="" selected disabled></option>
+                <option value="" selected disabled>Selecione</option>
                 <option value="Áries">Áries</option>
                 <option value="Gêmeos">Gêmeos</option>
                 <option value="Libra">Libra</option>
